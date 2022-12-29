@@ -20,8 +20,6 @@ var open = document.getElementById("open");
 var modal_container = document.getElementById("modal_container");
 var close = document.getElementById("close");
 var cross = document.getElementById("cross");
-var dargMode = document.querySelectorAll('.bottom-control .drag-mode svg');
-
 
 //open and close modal
 open.addEventListener('click', () => {
@@ -57,9 +55,6 @@ hiddenUpload.onchange = () => {
         background: false,
 
         ready: function () {
-
-            dargMode[0].onclick = () => cropper.setDragMode("crop")
-            dargMode[1].onclick = () => cropper.setDragMode("move")
 
             // zoom for image
             zoom[0].onclick = () => cropper.zoom(0.1)

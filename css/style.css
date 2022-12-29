@@ -212,8 +212,9 @@ body {
 
 .action-button .upload:hover,
 .action-button .reset:hover {
-    color: aliceblue;
-    background-color: #0b44ad
+    opacity: 0.4;
+    color: rgb(36, 36, 36);
+    border: 1px solid rgb(36, 36, 36);
 }
 
 .action-button .closed:hover{
@@ -259,7 +260,7 @@ body {
 
 .bottom-control li {
     position: relative;
-    left: 20px;
+    /* left: 20px; */
     list-style: none;
     display: inline;
     padding-left: 20px;
@@ -282,4 +283,8 @@ body {
 .bottom-control li svg:active {
     fill: #1c5ace;
     border: 0.2px solid #1c5ace;
+}
+
+@media screen and (max-width:400px) {
+
 }
