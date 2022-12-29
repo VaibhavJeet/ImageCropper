@@ -181,7 +181,10 @@ body {
     top: 40px;
 }
 
-
+.action-button .closed{
+    background-color: #00D179!important;
+    color: white!important;
+}
 .action-button .camera{
     display: none!important;
 }
@@ -195,8 +198,8 @@ body {
     width: 140px;
     height: 30px;
     margin: 10px 20px;
-    background-color: #407be9!important;
-    color: white;
+    background-color: #ffffff;
+    color: #677788;
     padding: 18px 23px;
     border-radius: 14px;
     outline: none;
@@ -208,10 +211,13 @@ body {
 }
 
 .action-button .upload:hover,
-.action-button .closed:hover,
 .action-button .reset:hover {
     color: aliceblue;
     background-color: #0b44ad
+}
+
+.action-button .closed:hover{
+    background-color: #025733!important;
 }
 
 .action-button .upload:active,
@@ -232,7 +238,7 @@ body {
    justify-content: space-evenly;
 }
 
-.bottom-control .drag-mode,
+/* .bottom-control .drag-mode, */
 .bottom-control .zoom,
 .bottom-control .rotate,
 .bottom-control .flip {
